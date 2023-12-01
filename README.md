@@ -1,32 +1,33 @@
-# Backend de Plataforma de Pagos
+# Payment Platform Backend
 
-Este proyecto implementa el backend de una plataforma de pagos, proporcionando servicios para la gestión de usuarios y transacciones.
+This project implements the backend for a payment platform, providing services for user and transaction management.
 
-## Características
+## Features
 
-- Gestión de usuarios: Creación y obtención de usuarios.
-- Transacciones: Creación de transacciones entre usuarios.
+- User management: Creation and retrieval of users.
+- Transactions: Creation of transactions between users.
 
-## Estructura del Proyecto
+## Project Structure
 
-- **Controladores:** `UserController` y `TransactionController`.
-- **Dominio:** Clases `User` y `Transaction`.
-- **DTOs:** `UserDTO` y `TransactionDTO`.
-- **Enumeración:** `UserType`.
-- **Servicios:** `UserService`, `TransactionService`, `AuthorizationService`, y `NotificationService`.
-- **Repositorios:** `UserRepository` y `TransactionRepository`.
-- **Configuración:** `AppConfig` y `ControllerExceptionHandler`.
-- **Pruebas:** `UserRepositoryTest` y `TransactionServiceTest`.
+- **Controllers:** `UserController` and `TransactionController`.
+- **Domain:** Classes `User` and `Transaction`.
+- **DTOs:** `UserDTO` and `TransactionDTO`.
+- **Enumeration:** `UserType`.
+- **Services:** `UserService`, `TransactionService`, `AuthorizationService`, and `NotificationService`.
+- **Repositories:** `UserRepository` and `TransactionRepository`.
+- **Configuration:** `AppConfig` and `ControllerExceptionHandler`.
+- **Tests:** `UserRepositoryTest` and `TransactionServiceTest`.
 
-## Configuración Externa
+## External Configuration
 
-- Base de datos H2.
-- URL de la API de autorización: [Enlace API de Autorización](https://run.mocky.io/v3/9b89b419-a2f7-4885-aa86-5ddcea24d520).
+- H2 database.
+- Authorization API URL: [Authorization API Link](https://run.mocky.io/v3/9b89b419-a2f7-4885-aa86-5ddcea24d520).
 
-## Instrucciones de Ejecución
+## Execution Instructions
 
-1. Clonar el repositorio: `git clone https://tu-repositorio.git`.
-2. Navegar al directorio del proyecto: `cd backend-plataforma-pagos`.
-3. Ejecutar la aplicación: `./mvnw spring-boot:run`.
+1. Clone the repository: `git clone https://your-repository.git`.
+2. Navigate to the project directory: `cd payment-platform-backend`.
+3. Run the application: `./mvnw spring-boot:run`.
 
-La aplicación estará disponible en http://localhost:8080.
+The application will be available at http://localhost:8080.
+
